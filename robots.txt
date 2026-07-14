@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://binderlyst.github.io/sitemap.xml
