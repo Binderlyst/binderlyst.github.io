@@ -2,25 +2,25 @@
   "items": [
     {
       "id": "164191194",
-      "type": "patreon",
+      "type": "note",
       "title": "What's new in 1.27",
-      "url": "https://www.patreon.com/Binderlyst/posts/whats-new-in-1-164191194",
+      "url": "https://binderlyst.github.io/changelog.html",
       "image": "https://binderlyst.github.io/news/app-art.jpg",
       "date": "2026-07-18"
     },
     {
       "id": "163609410",
-      "type": "patreon",
+      "type": "note",
       "title": "TCGplayer affiliate links",
-      "url": "https://www.patreon.com/Binderlyst/posts/tcgplayer-links-163609410",
+      "url": "https://binderlyst.github.io/changelog.html",
       "image": "https://binderlyst.github.io/news/app-art.jpg",
       "date": "2026-07-12"
     },
     {
       "id": "163549956",
-      "type": "patreon",
+      "type": "note",
       "title": "Binderlyst is live on Google Play",
-      "url": "https://www.patreon.com/Binderlyst/posts/binderlyst-is-on-163549956",
+      "url": "https://play.google.com/store/apps/details?id=com.binderlyst.app",
       "image": "https://binderlyst.github.io/news/app-art.jpg",
       "date": "2026-07-11"
     }
