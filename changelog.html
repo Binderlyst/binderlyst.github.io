@@ -32,15 +32,70 @@
   <div class="rule"></div>
 
   <section class="release">
+    <h2>1.0.35</h2>
+    <p class="date">7 August 2026</p>
+    <ul>
+      <li>The three painted styles, Enchanted Grove, Arcane Sanctum and Neon Horizon, are now unlocked by an optional supporter subscription (&pound;2.99 a month or &pound;23.99 a year). They're cosmetic, so no feature sits behind the subscription, and you can still preview each style in the app before deciding.</li>
+      <li>If you were already using one of the painted styles before this update, you keep it for free, permanently.</li>
+      <li>Everything else in Binderlyst stays free: scanning, collection, prices, decks, want lists, reports, import and export, backup, and all the regular themes including Custom.</li>
+    </ul>
+  </section>
+
+  <section class="release">
+    <h2>1.0.28 &ndash; 1.0.30</h2>
+    <p class="date">Late July to 2 August 2026</p>
+    <ul>
+      <li>Three hand-painted styles arrived, each repainting the app's border and the scanner screen. Enchanted Grove wraps the app in a painted forest, with blooms that follow your theme colours. Arcane Sanctum is a mystic library look. Neon Horizon is a synthwave sunset, with a neon scan frame that cycles its colour as you scan.</li>
+      <li>Find them in Settings under supporter styles, with a live preview of each.</li>
+    </ul>
+  </section>
+
+  <section class="release">
     <h2>1.0.27</h2>
     <p class="date">27 July 2026</p>
     <ul>
-      <li>Scanning non-English cards is much more reliable. Names in other languages are recognised properly, and the card's printed language is shown and can be changed by hand when a scan gets it wrong.</li>
-      <li>Scanning now always uses the fast pipeline. The separate standard mode has been removed, so there is one scanner that behaves the same way every time.</li>
-      <li>The scan sheet has been rebuilt to match the card detail screen. Quantity now sits inside the price tiles instead of on its own row.</li>
-      <li>Card rows look and behave the same everywhere in the app, rather than differing slightly between screens.</li>
-      <li>Fixed searching and sorting getting into a stuck or wrong state in several places.</li>
-      <li>Removed the "what's new" popup that appeared on launch. Updates are in the What's New row on the home screen instead.</li>
+      <li>A big round of fixes for scanning cards that aren't in English. The scanner now checks the printed set and collector number against how many cards that printing really has before adding anything, so it can't land on a similar card from a smaller set. Anything it can't corroborate goes to the review tray instead of being added quietly. It also copes with accents being lost in the camera read, and no longer misreads the dot in a stamp like "ZNR&bull;JP". The card's printed language is shown on the result, and can be changed by hand when a scan gets it wrong.</li>
+      <li>Special printings survive the language step. A Japanese extended-art or full-art card no longer falls back to the plain bordered version when your language has no entry for that exact printing.</li>
+      <li>Scanning is a little faster, which helps non-English cards most.</li>
+      <li>Search ignores accents, so "seance" finds "S&eacute;ance". A bug where "X OR NOT Y" behaved like AND is fixed.</li>
+      <li>Sorting is steadier: equally ranked rows stop reshuffling between screen redraws, and cards with no price or no date consistently sink to the bottom.</li>
+      <li>Collection folder totals now roll up from sub-folders properly.</li>
+      <li>Report fixes: Top-N and Bottom-N no longer treat unpriced cards as worthless, numeric filters reject nonsense input instead of matching everything, and the "this week" date filter no longer drifts.</li>
+      <li>There's one scanning mode now. The old standard mode is gone and every scan uses the rapid pipeline, which is the faster and better tested of the two.</li>
+      <li>The scan result sheet has been rebuilt to match the card detail screen, with quantity sitting inside the price tiles instead of on its own row, and card rows now look and behave the same everywhere in the app.</li>
+      <li>The "what's new" popup that appeared after an update has been removed. Updates live in the optional What's New card on the dashboard instead.</li>
+    </ul>
+  </section>
+
+  <section class="release">
+    <h2>1.0.24</h2>
+    <p class="date">19 July 2026</p>
+    <ul>
+      <li>New optional What's New card for the dashboard: a swipeable strip of videos, Patreon posts and short updates from the developer. It reads a list kept on this site, so news can turn up without waiting for an app update, and it keeps the last copy for offline. It's off by default; add it from the dashboard's customise screen.</li>
+      <li>Rearrange the dashboard by holding a card and dragging it up or down. The customise screen is still there for adding and removing.</li>
+      <li>Latest Releases has a new look: bigger tiles with the set's art filling them edge to edge, the name overlaid, and a chip showing the set symbol and product type.</li>
+      <li>The Latest Creations tile is now two tiles, Latest Decks and Latest Want Lists, each a sideways shelf of small cards. It takes about a third less space and shows several at once. Existing dashboards get both in its place automatically.</li>
+      <li>Status dots on dashboard deck and want-list cards now match the Decks tab, including grey for paused decks.</li>
+      <li>Cards with the same name on both faces, like the Secret Lair "Sol Ring // Sol Ring", now count as that card everywhere: in decks, in the "you own N across versions" count, in legality checks, and in community stats.</li>
+    </ul>
+  </section>
+
+  <section class="release">
+    <h2>1.0.22</h2>
+    <p class="date">15 July 2026</p>
+    <ul>
+      <li>Upcoming sets on the dashboard are tappable now, opening a preorder search rather than waiting for release day. The strip reads as one timeline, newest first.</li>
+      <li>The Google account chooser no longer appears over the app on launch. Backup sign-in stays silent, and dismissing the sheet once stops it asking until you next touch backup settings.</li>
+      <li>Auto-backup only uploads when something actually changed. Before, the full backup re-uploaded every time the app went to the background.</li>
+      <li>Big CSV imports are much faster, and a failed import no longer leaves half the file imported.</li>
+      <li>Grid view in decks and want lists loads tiles as you scroll, so big decks stop lagging, and deck stats no longer recompute on every screen redraw.</li>
+      <li>Subtotal and total rows in grouped reports count multiple copies properly, matching the header, exports and dashboard.</li>
+      <li>Rapid scan says "Rate limited, tap to retry" when the card database is throttling, instead of the misleading "No match found".</li>
+      <li>Card names get more room in lists: the condition badge only appears when a copy isn't Near Mint.</li>
+      <li>Dropping a deck or want-list line to zero now shows "Removed" with an Undo instead of deleting silently.</li>
+      <li>The startup screen gives up waiting after 15 seconds instead of hanging if something wedges while loading.</li>
+      <li>Community stats no longer count you twice after a reinstall or a restore. It's still anonymous, just a stable random number.</li>
+      <li>Card detail shows "Not legal" rather than "Not_legal", and the two "Buy missing" disclosure lines match the wording used everywhere else.</li>
     </ul>
   </section>
 
