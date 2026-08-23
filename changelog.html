@@ -7,10 +7,21 @@
 <meta name="description" content="Release notes for Binderlyst, the free MTG card scanner and collection tracker for Android.">
 <link rel="canonical" href="https://binderlyst.github.io/changelog.html">
 <link rel="stylesheet" href="style.css">
+<meta name="theme-color" content="#0d0a1a">
 <link rel="icon" type="image/png" href="app_icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="apple-touch-icon" href="app_icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Binderlyst">
+<meta property="og:title" content="Binderlyst changelog">
+<meta property="og:description" content="Release notes for Binderlyst, the free MTG card scanner and collection tracker for Android.">
+<meta property="og:url" content="https://binderlyst.github.io/changelog.html">
+<meta property="og:image" content="https://binderlyst.github.io/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Binderlyst changelog">
+<meta name="twitter:description" content="Release notes for Binderlyst, the free MTG card scanner and collection tracker for Android.">
+<meta name="twitter:image" content="https://binderlyst.github.io/og-card.png">
 </head>
 <body>
 
@@ -30,6 +41,19 @@
   <h1>Changelog</h1>
   <p class="lede">What's changed in Binderlyst, newest first.</p>
   <div class="rule"></div>
+
+  <section class="release">
+    <h2>1.0.36 &ndash; 1.0.37</h2>
+    <p class="date">12 August 2026</p>
+    <ul>
+      <li>The Patreon page has been retired. Its button in the Home header is now the supporter pill, and the What's New feed no longer carries Patreon posts. Nothing was behind Patreon, so nothing is lost.</li>
+      <li>Supporter access is steadier. It's remembered on your device and only ever withdrawn when Google Play actually reports no subscription, so a flaky connection or an offline launch can't take your style away mid-flight.</li>
+      <li>Supporter access is no longer carried in Google Drive backups, so restoring someone else's backup can't hand you a subscription you don't have.</li>
+      <li>Settings rework: the sticky "Add to" destinations now name the deck or want list they point at, there's a default condition filter, and Restore purchases shows that it's working.</li>
+      <li>A new picker for choosing which of your copies you mean, when you own a card in more than one place.</li>
+      <li>The scanner releases the camera's text recognition when it's idle, which frees memory between sessions.</li>
+    </ul>
+  </section>
 
   <section class="release">
     <h2>1.0.35</h2>
@@ -152,12 +176,11 @@
   <div class="inner">
     <nav>
       <a href="https://play.google.com/store/apps/details?id=com.binderlyst.app">Google Play</a>
-      <a href="https://www.patreon.com/Binderlyst">Patreon</a>
       <a href="https://binderlyst.github.io/Binderlyst-Privacy/">Privacy</a>
       <a href="https://binderlyst.github.io/Binderlyst-Terms/">Terms</a>
       <a href="mailto:binderlyst@gmail.com">Contact</a>
     </nav>
-    <p>Binderlyst is unofficial, fan-made software and is not affiliated with, endorsed by, or sponsored by Wizards of the Coast. Magic: The Gathering is a trademark of Wizards of the Coast LLC.</p>
+    <p>Binderlyst is unofficial Fan Content permitted under the <a href="https://company.wizards.com/en/legal/fancontentpolicy">Wizards of the Coast Fan Content Policy</a>. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. &copy;Wizards of the Coast LLC. Card data and prices come from <a href="https://scryfall.com">Scryfall</a>, which is not affiliated with Binderlyst.</p>
   </div>
 </footer>
 
