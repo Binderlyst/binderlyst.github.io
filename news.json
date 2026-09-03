@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "id": "release-1-0-42",
+      "type": "note",
+      "title": "What's new in 1.0.42",
+      "url": "https://binderlyst.github.io/changelog.html",
+      "image": "https://binderlyst.github.io/news/app-art.jpg",
+      "date": "2026-09-03"
+    },
+    {
       "id": "164191194",
       "type": "note",
       "title": "What's new in 1.0.27",
