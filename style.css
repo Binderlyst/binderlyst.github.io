@@ -289,12 +289,6 @@ th:first-child { background: var(--surface); }
 .faq h3 { margin-top: 1.9rem; }
 .faq h3 + p { margin-top: 0.35rem; }
 
-/* ---- changelog ---- */
-
-.release { margin: 2rem 0; }
-.release h2 { margin-bottom: 0.2rem; }
-.release .date { color: var(--muted); font-size: 0.9rem; margin: 0 0 0.5rem; }
-
 /* ---- footer ---- */
 
 footer.site {

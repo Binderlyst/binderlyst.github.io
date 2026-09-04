@@ -1,10 +1,18 @@
 {
   "items": [
     {
+      "id": "release-1-0-44",
+      "type": "note",
+      "title": "What's new in 1.0.44",
+      "url": "https://play.google.com/store/apps/details?id=com.binderlyst.app",
+      "image": "https://binderlyst.github.io/news/app-art.jpg",
+      "date": "2026-09-04"
+    },
+    {
       "id": "release-1-0-42",
       "type": "note",
       "title": "What's new in 1.0.42",
-      "url": "https://binderlyst.github.io/changelog.html",
+      "url": "https://play.google.com/store/apps/details?id=com.binderlyst.app",
       "image": "https://binderlyst.github.io/news/app-art.jpg",
       "date": "2026-09-03"
     },
@@ -12,7 +20,7 @@
       "id": "164191194",
       "type": "note",
       "title": "What's new in 1.0.27",
-      "url": "https://binderlyst.github.io/changelog.html",
+      "url": "https://play.google.com/store/apps/details?id=com.binderlyst.app",
       "image": "https://binderlyst.github.io/news/app-art.jpg",
       "date": "2026-07-18"
     },
@@ -20,7 +28,7 @@
       "id": "163609410",
       "type": "note",
       "title": "TCGplayer affiliate links",
-      "url": "https://binderlyst.github.io/changelog.html",
+      "url": "https://play.google.com/store/apps/details?id=com.binderlyst.app",
       "image": "https://binderlyst.github.io/news/app-art.jpg",
       "date": "2026-07-12"
     },
